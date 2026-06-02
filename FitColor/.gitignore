@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# YOLOv5 내부 git (서브모듈 아님)
+최종코드/yolov5/.git/
+
+# 학습 중간 결과 (best.pt만 유지)
+최종코드/yolov5/runs/train/best_yolov5s_result/
+최종코드/yolov5/runs/detect/
+
+# 캐시
+최종코드/yolov5/utils/__pycache__/
+최종코드/yolov5/models/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db

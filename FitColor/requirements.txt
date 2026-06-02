@@ -1,0 +1,13 @@
+streamlit
+torch==2.4.1
+torchvision
+pillow
+numpy
+pandas
+scikit-learn
+matplotlib
+opencv-python-headless
+seaborn
+scipy
+tqdm
+pyyaml
